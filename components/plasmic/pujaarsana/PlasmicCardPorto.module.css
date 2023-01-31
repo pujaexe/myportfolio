@@ -1,0 +1,86 @@
+.cardporto {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  min-width: 0;
+}
+.cardporto > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-top: calc(0px - 12px);
+  height: calc(100% + 12px);
+}
+.cardporto > :global(.__wab_flex-container) > *,
+.cardporto > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardporto > :global(.__wab_flex-container) > picture > img,
+.cardporto
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 12px;
+}
+.img__ib1Xw {
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+  border-radius: 12px;
+}
+.img__ib1Xw > picture > img {
+  object-fit: cover;
+}
+.img__ib1Xw > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.content {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.content > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.content > :global(.__wab_flex-container) > *,
+.content > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.content > :global(.__wab_flex-container) > picture > img,
+.content
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 6px;
+}
+.title {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.desc {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}

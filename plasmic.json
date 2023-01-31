@@ -1,0 +1,104 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "uHdm286nsA1LVw4Z68JgXh",
+      "projectApiToken": "PwBvCDLrlabejY3KDGWvIflNc4LIk5iQWtO76f17vYY9SYWeH2v74lwQxfKJbc59d0dOvCEjgmz2vl8dhVg",
+      "projectName": "pujaarsana",
+      "version": "latest",
+      "cssFilePath": "plasmic/pujaarsana/plasmic_pujaarsana.module.css",
+      "components": [
+        {
+          "id": "izGfKZi6KdYi",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "uHdm286nsA1LVw4Z68JgXh",
+          "renderModuleFilePath": "plasmic/pujaarsana/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/pujaarsana/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "WGpzMwoiUz",
+          "name": "CardPorto",
+          "type": "managed",
+          "projectId": "uHdm286nsA1LVw4Z68JgXh",
+          "renderModuleFilePath": "plasmic/pujaarsana/PlasmicCardPorto.tsx",
+          "importSpec": {
+            "modulePath": "CardPorto.tsx"
+          },
+          "cssFilePath": "plasmic/pujaarsana/PlasmicCardPorto.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "KbksUeDaO0",
+          "name": "LocationSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/pujaarsana/icons/PlasmicIcon__LocationSvgrepoComsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "h43yKHhw5",
+          "name": "image",
+          "filePath": "../public/plasmic/pujaarsana/images/image.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "7rrEUMWs5M",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "k6rItkp9il",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Eld-ZV02Iw4XH",
+        "name": "Screen",
+        "projectId": "uHdm286nsA1LVw4Z68JgXh",
+        "contextFilePath": "plasmic/pujaarsana/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.205",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.205/dist/plasmic.schema.json"
+}
