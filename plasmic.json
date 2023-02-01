@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -67,6 +67,91 @@
           "id": "h43yKHhw5",
           "name": "image",
           "filePath": "../public/plasmic/pujaarsana/images/image.png"
+        },
+        {
+          "id": "WbrHIFf8I",
+          "name": "port-13.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port13Png.png"
+        },
+        {
+          "id": "kVEncmh1w",
+          "name": "port-15.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port15Png.png"
+        },
+        {
+          "id": "K-QYRruTi",
+          "name": "port-16.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port16Png.png"
+        },
+        {
+          "id": "xgoQXzvU7",
+          "name": "port-14.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port14Png.png"
+        },
+        {
+          "id": "DAb8sqG7y",
+          "name": "port-12.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port12Png.png"
+        },
+        {
+          "id": "39NQtYyi7",
+          "name": "port-10.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port10Png.png"
+        },
+        {
+          "id": "PTm6Yctqj",
+          "name": "port-11.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port11Png.png"
+        },
+        {
+          "id": "4_lwNNx4r",
+          "name": "port.png",
+          "filePath": "../public/plasmic/pujaarsana/images/portpng.png"
+        },
+        {
+          "id": "LME-1ais8",
+          "name": "port-8.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port8Png.png"
+        },
+        {
+          "id": "Kc46T_hnL",
+          "name": "port-7.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port7Png.png"
+        },
+        {
+          "id": "9aqrfVQK8",
+          "name": "port-6.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port6Png.png"
+        },
+        {
+          "id": "1f4BwIr0G",
+          "name": "port-9.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port9Png.png"
+        },
+        {
+          "id": "EQVMNRA0h",
+          "name": "port-5.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port5Png.png"
+        },
+        {
+          "id": "3GO2YyegD",
+          "name": "port-4.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port4Png.png"
+        },
+        {
+          "id": "8jo8MpWG_",
+          "name": "port-3.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port3Png.png"
+        },
+        {
+          "id": "wmtDeFHUM",
+          "name": "port-2.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port2Png.png"
+        },
+        {
+          "id": "ONAuPX9z2",
+          "name": "port-1.png",
+          "filePath": "../public/plasmic/pujaarsana/images/port1Png.png"
         }
       ],
       "indirect": false,

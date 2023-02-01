@@ -57,7 +57,6 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   section?: p.Flex<"section">;
-  img?: p.Flex<typeof p.PlasmicImg>;
   h1?: p.Flex<"h1">;
   svg?: p.Flex<"svg">;
 };
@@ -134,10 +133,8 @@ function PlasmicHomepage__RenderFunc(props: {
               className={classNames(projectcss.all, sty.freeBox__tpAu)}
             >
               <p.PlasmicImg
-                data-plasmic-name={"img"}
-                data-plasmic-override={overrides.img}
                 alt={""}
-                className={classNames(sty.img)}
+                className={classNames(sty.img__ozVW)}
                 displayHeight={"auto" as const}
                 displayMaxHeight={"none" as const}
                 displayMaxWidth={"100%" as const}
@@ -324,7 +321,29 @@ function PlasmicHomepage__RenderFunc(props: {
                         "__wab_instance",
                         sty.cardPorto__a9WxC
                       )}
-                    />
+                      slot={"NFT Coupon"}
+                      slot2={
+                        "Product strategy development,  requirement gathering, UI/UX design, end to end flow, translated product strategy into detailed requirements and delivered a web3 NFT coupon marketplace"
+                      }
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img___4MFmT)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port14Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
                   ) : null}
                 </p.Stack>
 
@@ -339,7 +358,29 @@ function PlasmicHomepage__RenderFunc(props: {
                         "__wab_instance",
                         sty.cardPorto__hg8Kl
                       )}
-                    />
+                      slot={"NFT Ticketing"}
+                      slot2={
+                        "End-to-end product flow, UI/UX design, and delivering seamless user experiences focus on web3 ticketing systems."
+                      }
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__gi9P4)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port13Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
                   ) : null}
                 </p.Stack>
 
@@ -354,7 +395,29 @@ function PlasmicHomepage__RenderFunc(props: {
                         "__wab_instance",
                         sty.cardPorto__v8GLm
                       )}
-                    />
+                      slot={"Ramerame.co.id"}
+                      slot2={
+                        "End-to-end product flow, UI/UX design, and delivering seamless user experiences for Ramerame.co.id"
+                      }
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img___4Hdkv)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port15Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
                   ) : null}
                 </p.Stack>
 
@@ -369,7 +432,595 @@ function PlasmicHomepage__RenderFunc(props: {
                         "__wab_instance",
                         sty.cardPorto__z4Rz0
                       )}
-                    />
+                      slot={"Gemolz Fresh Juice"}
+                      slot2={"UI/UX Design for Gemolz fresh juice apps"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__h9V6L)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port16Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__qAeoI)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto__eyeP
+                      )}
+                      slot={"Thealphalets"}
+                      slot2={"UI/UX Design for Online invoice and ledger"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__k68R)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port12Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__peo0G)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto___6QYjR
+                      )}
+                      slot={"Astungkara.co"}
+                      slot2={"UI/UX Design for Gemolz fresh juice apps"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__mmdar)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port11Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__mHfdP)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto___4I1B4
+                      )}
+                      slot={"Astungkara.co"}
+                      slot2={"UI/UX Design for Gemolz fresh juice apps"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__x90Sk)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port10Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__p5MfZ)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto__hj0Ux
+                      )}
+                      slot={"Quiz Apps"}
+                      slot2={"UI/UX Design for Gemolz fresh juice apps"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__mNz69)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/portpng.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__gcE2L)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto___3CEEq
+                      )}
+                      slot={"Bank Discount Apps"}
+                      slot2={"UI/UX Design for Gemolz fresh juice apps"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__axjcN)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port8Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__nXv6A)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto__iIHoM
+                      )}
+                      slot={"FMCG Company"}
+                      slot2={"UI/UX Design for Gemolz fresh juice apps"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__atFgP)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port7Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__vitNo)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto__sQlAa
+                      )}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__nyJwu
+                          )}
+                        >
+                          {"Tourism Apps"}
+                        </div>
+                      }
+                      slot2={"UI/UX Design for Gemolz fresh juice apps"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__zOJtQ)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port6Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__g2YaX)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto__hmV6Y
+                      )}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__gXmEn
+                          )}
+                        >
+                          {"Sales Dashboard Apps"}
+                        </div>
+                      }
+                      slot2={"UI/UX Design for Gemolz fresh juice apps"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__ukZsK)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port9Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox___6N5BY)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto__uxfh5
+                      )}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__ddNg6
+                          )}
+                        >
+                          {"Human Resource Development Apps"}
+                        </div>
+                      }
+                      slot2={"UI/UX Design for Gemolz fresh juice apps"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__a7BQ4)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port5Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__errRg)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto___3Jb85
+                      )}
+                      slot={"Tax consulting Apps"}
+                      slot2={
+                        "UI/UX Design for tax consulting application from Ayotax"
+                      }
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__oiGdK)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port4Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__xwy0U)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto__p4E77
+                      )}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___0CaQ5
+                          )}
+                        >
+                          {"Cash Collection Apps"}
+                        </div>
+                      }
+                      slot2={"UI/UX Design for Cash collection from Stor.id"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__rWb1)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port3Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox___3G7Ht)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto__l4WDu
+                      )}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___7VYrJ
+                          )}
+                        >
+                          {"Cash Collection Apps"}
+                        </div>
+                      }
+                      slot2={
+                        "UX/UI Design for buying and selling  bankruptcy assets from asset Curator Boedel.id"
+                      }
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__jNnS3)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port2Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__sFmGj)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto__uZhcn
+                      )}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__jAcTu
+                          )}
+                        >
+                          {"Boedel Apps"}
+                        </div>
+                      }
+                      slot2={
+                        "UX/UI Design for buying and selling  bankruptcy assets from asset Curator Boedel.id"
+                      }
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__sFzIy)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port2Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
+                  ) : null}
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__fvJf0)}
+                >
+                  {true ? (
+                    <CardPorto
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cardPorto__a8Xpe
+                      )}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__b2R5
+                          )}
+                        >
+                          {"Robocall"}
+                        </div>
+                      }
+                      slot2={
+                        "UI/UX Design for an Online campaign platform combined with artificial intelligence technology to automatically make calls to numbers that have been determined by the robot\n"
+                      }
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__jWr1G)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/pujaarsana/images/port1Png.png",
+                          fullWidth: 1024,
+                          fullHeight: 768,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </CardPorto>
                   ) : null}
                 </p.Stack>
               </div>
@@ -382,9 +1033,8 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "section", "img", "h1", "svg"],
-  section: ["section", "img", "h1", "svg"],
-  img: ["img"],
+  root: ["root", "section", "h1", "svg"],
+  section: ["section", "h1", "svg"],
   h1: ["h1"],
   svg: ["svg"]
 } as const;
@@ -394,7 +1044,6 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   section: "section";
-  img: typeof p.PlasmicImg;
   h1: "h1";
   svg: "svg";
 };
@@ -461,7 +1110,6 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     section: makeNodeComponent("section"),
-    img: makeNodeComponent("img"),
     h1: makeNodeComponent("h1"),
     svg: makeNodeComponent("svg"),
 

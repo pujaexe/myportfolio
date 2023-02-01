@@ -161,7 +161,8 @@ function PlasmicCardPorto__RenderFunc(props: {
             {p.renderPlasmicSlot({
               defaultContents:
                 "Enter some textEnter some textEnter some textEnter some textEnter some textEnter some textEnter some text",
-              value: args.slot2
+              value: args.slot2,
+              className: classNames(sty.slotTargetSlot2)
             })}
           </div>
         </p.Stack>
